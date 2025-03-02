@@ -29,4 +29,27 @@ neofetch
 lsblk
 df -h
 ```
+Verified disk partitions & OS installation.
+
+## **Installed Essential Tools**
+```bach
+sudo apt install git htop neofetch -y
+```
+
+## **Challenges & Fixes**
+
+1. **Wifi Not Working**
+– **Issue:** Wifi adapter was not detected after installation.
+– **Fix:** Installed Broadcom drivers manually:
+```bach
+sudo apt install bcmwl-kernel-source -y
+```
+
+2. **Boot Mode Verification**
+– **Issue:** Needed to confirm if installation was in **UEFI mode**
+– **Fix:** Checked with:
+```bach
+[ -d /sys/firmware/efi ] && echo "UEFI Mode" || echo "Legacy BIOS Mode"
+```
+Confirmed **UEFI Mode** was enabled.
 
