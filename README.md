@@ -7,7 +7,7 @@ I installed **Linux Mint XFCE 22.1** on my **MacBook Air**
 – **OS Installed:** Linux Mint 22.1 XFCE
 – **Processor:** Intel i5 5350U 2.9GHz
 – **RAM:** 8GB
-– **Storage:** 256B
+– **Storage:** 256GB
 
 ## **Installation Summary**
 **Created a bootable USB** using Rufus on Windows.
