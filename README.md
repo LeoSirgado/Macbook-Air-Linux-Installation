@@ -21,7 +21,7 @@ I installed **Linux Mint XFCE 22.1** on my **MacBook Air**
 sudo apt update && sudo apt upgrade -y
 sudo ufw enable
 ```
-**Updated all packages & enabled firewall**.
+Updated all packages & enabled firewall.
 
 ## **Checked system info**
 ```bach
@@ -52,4 +52,27 @@ sudo apt install bcmwl-kernel-source -y
 [ -d /sys/firmware/efi ] && echo "UEFI Mode" || echo "Legacy BIOS Mode"
 ```
 Confirmed **UEFI Mode** was enabled.
+
+## **Screenschots**
+### 1. **System Information**
+#### **OS & Hardware Details**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/neofetch.png
+#### **Storage & Partition Layout**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/lsblk.png
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/df-h.png
+#### **Boot Mode (UEFI/Legacy)**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/UEFI%20Mode.png
+### 2. **Network & Wireless Configuration**
+#### **Network Adapter Information**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/grep%20Broadcom.png
+#### **IP Configuration**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/ifconfig.png
+#### **Wi-fi Driver Logs**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/grep%20wl.png
+### 3. **Security & Firewall**
+#### **Firewall Status**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/ufw-status.png
+### 4. **Desktop Environment**
+#### **Linux Mint Desktop**
+https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/mint%20desktop.png
 
