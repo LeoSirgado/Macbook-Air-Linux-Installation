@@ -1,6 +1,6 @@
 # Linux Mint XFCE Installation on Macbook Air (2017) 
 ## Overview 
-I installed **Linux Mint XFCE 22.1** on my **MacBook Air**
+This project involved installing **Linux Mint XFCE 22.1** on my **MacBook Air** to establish a dedicated environment for hands-on learning and the development of Linux system administration and IT support skills. 
 
 ## System Specifications 
 – **Device:** MacBook Air (2017)
@@ -76,3 +76,12 @@ https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/ufw-statu
 #### **Linux Mint Desktop**
 https://github.com/LeoSirgado/Macbook-Air-Linux-Installation/blob/main/mint%20desktop.png
 
+## **What i Learned**
+–**Linux System Management**: I learned how to manage a Linux system, including updating packages and configuring the firewall using UFW.
+–**System Information Tools**: I became familiar with tools like `neofetch`, `lsblk`, and `df -h` to view system information and disk usage.
+–**Networking Basics**: I gained hands-on experience with commands like `lspci` and `ifconfig` for inspecting network and hardware configurations.
+–**Troubleshooting**: I practiced troubleshooting common issues by reviewing logs with `dmesg` and checking system status using `ufw`.
+–**Dcoumentation Skills**: I improved my ability to documnet technical processes clearly, wich is crucial for IT support roles.
+
+## **Conclusion**
+This project provided my first hands-on experience with Linux system administration and IT support. It helped me learn basic tasks such as configuring the firewall, gathering system information, troubleshooting and laid a strong foundation for my future learning and growth in IT support roles. 
